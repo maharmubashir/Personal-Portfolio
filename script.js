@@ -1,3 +1,6 @@
+ document.addEventListener('contextmenu', function (event) {
+        event.preventDefault();
+    });
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
