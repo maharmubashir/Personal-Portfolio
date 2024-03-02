@@ -369,6 +369,26 @@ section .title::after{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
+.right1{
+    position: relative;
+    text-align: center;
+}
+.right1 h3{
+    color: rgb(10, 244, 10);
+    font-weight: 900;
+    font-family:'Ubuntu', sans-serif;
+    margin-bottom: 8px;
+}
+.right1 button{
+    background-color: rgb(10, 244, 10);
+    height: auto;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-family:'Ubuntu', sans-serif;
+    margin-top: 8px;
+}
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
