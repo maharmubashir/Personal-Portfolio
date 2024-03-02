@@ -381,6 +381,7 @@ section .title::after{
 }
 .right1 button{
     background-color: rgb(10, 244, 10);
+    color:crimon:
     height: auto;
     font-size: 1.5rem;
     padding: 5px;
@@ -388,6 +389,9 @@ section .title::after{
     border-radius: 10px;
     font-family:'Ubuntu', sans-serif;
     margin-top: 8px;
+}
+hr {
+   border-top: 1px solid crimon; 
 }
 /* responsive media query start */
 @media (max-width: 1104px) {
